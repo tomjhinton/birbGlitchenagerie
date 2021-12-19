@@ -12,7 +12,7 @@ I mean first off as the year comes to an end thanx Raph for hosting and everythi
 Now I don't know how many of you do any 3D modelling but the main thing I've learnt from it is that I don't know what anything looks like from memory. Here are some 'creatures?' that I modelled without a reference image.
 
 - No I don't know what they are either.
-- Quick blender models and baked texture.
+- Quick blender models and baked textures.
 - Loaded them into three.js
 - Tweaked some stuff with shaders.
 - Yes I'm aware this is pretty much what I do every week.
