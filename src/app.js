@@ -8,11 +8,11 @@ const canvas = document.querySelector('canvas.webgl')
 
 const textureLoader = new THREE.TextureLoader()
 
-const birdTexture = textureLoader.load('../bird.jpg')
+const birdTexture = textureLoader.load('./bird.jpg')
 
-const cowTexture = textureLoader.load('../cow.jpg')
+const cowTexture = textureLoader.load('./cow.jpg')
 
-const dudeTexture = textureLoader.load('../dude.jpg')
+const dudeTexture = textureLoader.load('./dude.jpg')
 
 
 import birdVertexShader from './shaders/vertBird.glsl'
