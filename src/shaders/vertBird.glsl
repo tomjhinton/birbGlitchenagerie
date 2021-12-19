@@ -255,32 +255,20 @@ void main()
 {
 
     float t = uTime * .2;
-    // You can also use classic perlin noise or simplex noise,
-    // I'm using its periodic variant out of curiosity
+
     float distortion = pnoise((normal + t), vec3(10.0) * 3.5) * .2 ;
 
-    // Disturb each vertex along the direction of its normal
     vec3 pos = position + (normal * distortion);
 
-    // Create a sine wave from top to bottom of the sphere
-    // To increase the amount of waves, we'll use uFrequency
-    // To make the waves bigger we'll use uAmplitude
-    float angleX = sin(uv.x * 3. + t) * 6.;
+
     float angleY = sin(uv.y * 3. + t) * 6. * uValueA;
-    float angleZ = sin(uv.x /uv.y * 3. + t) * .6;
+
     pos = rotateY(pos, angleY);
-    // pos += rotateX(pos, angleX);
-    // pos += rotateZ(pos, angleZ);
-    // pos.z += cnoise(pos);
 
-    // pos.z += cnoise(pos) *.5;
-
-    // vDistort = distortion; // Train goes to the fragment shader! Tchu tchuuu
 
     gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
 
-  // gl_Position = vec4(position, 1.0);
-  //
+
 
   vUv = uv;
   vTime = uTime;
