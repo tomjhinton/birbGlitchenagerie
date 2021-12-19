@@ -15,7 +15,7 @@ Now I don't know how many of you do any 3D modelling but the main thing I've lea
 - Quick blender models and baked texture.
 - Loaded them into three.js
 - Tweaked some stuff with shaders.
-- Yes I'm aware this is basically what I do every week.
+- Yes I'm aware this is pretty much what I do every week.
 
 Basically reused some vertex shaders from elsewhere that become glitchy when applied to the wrong shapes.
 
@@ -25,3 +25,9 @@ Basically reused some vertex shaders from elsewhere that become glitchy when app
 [If not being used on a sphere this kind of distortion is just odd](https://tympanus.net/codrops/2021/01/26/twisted-colorful-spheres-with-three-js/)
 
 [Usually I use this to turn planes into spheres](https://twitter.com/pumaparded/status/1468583699344236554)
+
+- Did not really get around to styling anything.
+- I think it kind of fits though?
+- My artistic style is 'Miscalculated the amount of time to leave for CSS'
+- Oh boy does the layout not work on my phone.
+- Yes I could've just used tweakpane.
